@@ -1,0 +1,33 @@
+h1 {
+    display: flex;
+    justify-content: center;
+  }
+  #resultados {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 300px;
+    overflow-wrap: break-word;
+    display: none; /* Ocultar resultados inicialmente */
+  }
+  #vistaPreviaImagen {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #vistaPreviaImagen img {
+    max-width: 300px;
+    border: 1px solid #ccc;
+  }
+
+  input[type="file"] {
+    box-shadow: #079132 0 0 20px;
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    box-shadow: #079132 0 0 20px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+  }
